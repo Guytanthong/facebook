@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1c1e21;
+  --background: #ffffff;
   --foreground: #171717;
   --fb-font: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
 }
