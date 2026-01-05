@@ -4,7 +4,7 @@ import RightSide from "./rightside/rightside";
 
 export default function HomeLayout() {
   return (
-    <main className="flex pt-[12px]">
+    <main className="flex w-full pt-[12px]">
 
       {/* LEFT SIDEBAR — STICKS TO LEFT EDGE */}
       <div className="hidden xl:block w-[280px] shrink-0">
@@ -20,12 +20,14 @@ export default function HomeLayout() {
             <Feed />
           </div>
 
-          {/* RIGHT SIDEBAR */}
-          <div className="hidden lg:block w-[280px] shrink-0">
-            <RightSide />
-          </div>
+          
 
         </div>
+
+        {/* RIGHT SIDEBAR */}
+          <div className="hidden lg:block w-[360px] shrink-0">
+            <RightSide />
+          </div>
       </div>
 
     </main>
